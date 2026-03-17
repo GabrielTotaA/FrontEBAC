@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tourney:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Adivinhação</title>
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+        <section class="separador">
+            <h1>Adivinhe o numero</h1>
+            <p>Tente adivinhar o número de 1 a 100<br>Você tera 7 tentativas</p>
+        </section>
+        <section class="separador">
+            <button onclick="iniciarJogo()" id="botaoInicio">Começar</button>
+        </section>
+        <section class="chute">
+            <label for="chute">Digite o numero</label>
+            <input type="numeber" id="chute">
+            <button onclick="chute()" id="chute">Enviar</button>
+            <p id="dica"></p>
+            <p id="tentativas"></p>
+        </section>
+    </div>
+</body>
+</html>

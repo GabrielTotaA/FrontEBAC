@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(98, 1, 122);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: tourney;
+    color: rebeccapurple;
+}
+
+div {
+    background-color: rgb(233, 233, 233);
+    border-radius: 20px;
+    width: 35%;
+    height: 75%;
+    display: block;
+    justify-items: center;
+}
+
+h1 {
+    font-weight: 730;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+p {
+    font-size: 20px;
+    font-weight: 530;
+    text-align: center;
+}
+
+.separador {
+
+    width: 85%;
+    border-bottom:solid 5px rgb(212, 212, 212);
+}
+
+section {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+button {
+    background-color: rgb(212, 212, 212);
+    border: none;
+    font-size: 2rem;
+    font-family: tourney;
+    color: rebeccapurple;
+    font-weight: 450;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+button:active {
+    transform: scale(0.9);
+}
+
+.chute{
+    display: grid;
+    justify-items: center;
+}
+
+label {
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+input {
+    background-color: rgb(212, 212, 212);
+    border: none;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+#chute {
+    margin-top: 10px;
+}

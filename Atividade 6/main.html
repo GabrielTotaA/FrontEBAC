@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Tourney:wdth,wght@75,700&display=swap"
+        rel="stylesheet">
+    <title>Parquimetro</title>
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Parquímetro</h1>
+        <h2 id="saida"></h2>
+        <section>
+            <div class="linha">
+                <p class="tituloTabela">Valor</p>
+                <p class="tituloTabela">Tempo</p>
+            </div>
+            <div class="linha">
+                <p>R$: 1,00</p>
+                <p>30 minutos</p>
+            </div>
+            <div class="linha">
+                <p>R$: 1,75</p>
+                <p>60 minutos</p>
+            </div>
+            <div class="linha">
+                <p>R$: 3,00</p>
+                <p>120 minutos</p>
+            </div>
+
+        </section>
+        <input type="text" id="valor" placeholder="Insira um valor">
+        <button onclick="calcular()">Calcular</button>
+    </div>
+</body>
+
+</html>

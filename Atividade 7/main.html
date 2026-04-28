@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Tourney:wdth,wght@75,700&display=swap"
+        rel="stylesheet">
+    <title>Cadastro com API</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Cadastro</h1>
+        <h2 id="saida"></h2>
+        <form action="">
+            <section>
+                <label for="">CEP</label>
+                <input type="text" id="cep" placeholder="Digite o CEP">
+                <label for="">Logradouro</label>
+                <input type="text" id="logradouro">
+                <label for="">Bairro</label>
+                <input type="text" id="bairro">
+                <label for="">Cidade</label>
+                <input type="text" id="cidade">
+                <label for="">Estado</label>
+                <input type="text" id="estado">
+                <label for="">Numero</label>
+                <input type="text" id="numero">
+            </section>
+            <button type="submit" onclick="calcular()">Cadastrar</button>
+        </form>
+    </div>
+</body>
+<script src="scripts.js"></script>
+
+</html>
